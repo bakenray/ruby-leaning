@@ -16,5 +16,6 @@ class MyClass_2
 end
 
 obj = MyClass_2.new
-obj.xxx('args1','args2','args3','args4')
+obj.xxx('args1','args2','args3','args4')    
 
+# 有了method_missing，可以让一个对象响应任何方法
