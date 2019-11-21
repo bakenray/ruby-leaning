@@ -47,3 +47,9 @@ p Class.superclass  #Module
 # Class的父类是一个Module，Module又是什么呢？
 # 可以初略的理解为，Module 是低配版的Class，而Class是高配版的Module
 
+
+#一个对象有哪些属性？
+# 先看对象自身储存了哪些方法或属性
+# 再看它的构造类，定义了哪些方法或属性
+# 而后再看它的构造类的父类，有哪些属性和方法
+# 一直往上查找父类
